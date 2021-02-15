@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="177dp"
+        android:layout_height="102dp"
+        android:text="Log In"
+        app:backgroundTint="#C13A3A"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="251dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        tools:layout_editor_absoluteY="148dp"
+        tools:text="dummyacc10@jeemail.com" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="248dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
+        tools:layout_editor_absoluteY="244dp"
+        tools:text="Enter Password" />
+</androidx.constraintlayout.widget.ConstraintLayout>

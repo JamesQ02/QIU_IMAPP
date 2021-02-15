@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="168dp"
+        android:layout_height="162dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="167dp"
+        android:layout_height="162dp"
+        android:src="@drawable/girl1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="169dp"
+        android:layout_height="166dp"
+        android:src="@drawable/man1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Lylia Groves"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MasterofDoom1990"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ronald McArthur"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It took me 3 hours to finish..."
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey, how are you doing. ;)"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have you seen the new trailer?"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
